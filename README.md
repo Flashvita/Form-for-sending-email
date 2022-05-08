@@ -32,4 +32,4 @@ python manage.py runserver
 
 #in other terminal write
 
-celery -A DjangoForm worker -l Info
+celery -A send_mail worker -l Info
