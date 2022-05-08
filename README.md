@@ -1,12 +1,13 @@
 
-
 #Install virtual environment
 
 python3 -m install venv venv
 
+
 #Activate
 
 source venv/bin/activate
+
 
 #Install requirements
 
@@ -24,9 +25,11 @@ python manage.py migrate
 
 python manage.py createsuperuser
 
+
 #Run project
 
 python manage.py runserver
+
 
 #Run celery
 
