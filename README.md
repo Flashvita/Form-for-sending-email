@@ -1,7 +1,7 @@
 
 #Install virtual environment
 
-python3 -m install venv venv
+python3 -m virtualenv venv
 
 
 #Activate
